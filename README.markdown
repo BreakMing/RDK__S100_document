@@ -17,7 +17,7 @@
 
 点击**红色方框**内的选项
 
-![VS_Code_connect_host](image/vs_code_connect_host.png "VS_Code_connect_host")
+![VS_Code_connect_host](image/Vs_Code_connect_host.png "VS_Code_connect_host")
 
 继续点击**红色方框**内的选项
 
