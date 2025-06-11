@@ -101,9 +101,7 @@
 
 > sudo vim /etc/netplan/01-hobot-net.yaml 
 
----
 > Note：文件名可能有所区别，但路径都是一样的
----
 
 修改 Netlan 配置文件中的**eth0**配置成静态的IP4，ip地址为**192.168.123.233**
 
