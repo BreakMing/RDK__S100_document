@@ -13,19 +13,19 @@
 
 打开VS Code,点击左下角的**蓝色图标**
 
-![VS_Code_Windows](image\VS_Code_Windows.png "VS_Code_Windows")
+![VS_Code_Windows](image/VS_Code_Windows.png "VS_Code_Windows")
 
 点击**红色方框**内的选项
 
-![VS_Code_connect_host](image\vs_code_connect_host.png "VS_Code_connect_host")
+![VS_Code_connect_host](image/vs_code_connect_host.png "VS_Code_connect_host")
 
 继续点击**红色方框**内的选项
 
-![VS_Code_Config_SSH_hosts](image\VS_Code_Config_SSH_hosts.png "VS_Code_Config_SSH_hosts")
+![VS_Code_Config_SSH_hosts](image/VS_Code_Config_SSH_hosts.png "VS_Code_Config_SSH_hosts")
 
 根据自己的**用户名**选择对应的目录路径
 
-![VS_Code_Config_SSH_hosts](image\VS_Code_choose_user.png "VS_Code_Config_SSH_hosts")
+![VS_Code_Config_SSH_hosts](image/VS_Code_choose_user.png "VS_Code_Config_SSH_hosts")
 
 配置**config**文件
 
@@ -33,13 +33,13 @@
  > - HostName：设备连接的网络IP
  > - User:登录设备的用户名
 
-![VS_Code_Config_SSH_hosts](image\VS_Code_config_setting.png "VS_Code_Config_SSH_hosts")
+![VS_Code_Config_SSH_hosts](image/VS_Code_config_setting.png "VS_Code_Config_SSH_hosts")
 
 配置完成后，**保存**并退出
 
 重复执行前面的步骤，在下面这个界面里，可以看到我们新添加的一个名为**RDK**的设备，点击即可通过SSH连接
 
-![VS_Code_Config_SSH_hosts](image\VS_Code_connect_device.png "VS_Code_Config_SSH_hosts")
+![VS_Code_Config_SSH_hosts](image/VS_Code_connect_device.png "VS_Code_Config_SSH_hosts")
 
 输入**用户密码**，就完成了连接，
 
@@ -59,17 +59,17 @@
 
 你将看到以下界面，点击红框所示的**下载**按钮
 
-![VDownload_Xft](image\Download_Xftp.png "Download_Xft")
+![VDownload_Xft](image/Download_Xftp.png "Download_Xft")
 
 下载完成后，打开安装包，一步步操作完成**Xftp**的安装
 
 点击运行**Xftp 8**软件，会出现如下界面，点击**红色方框**内的按钮
 
-![Xftp_display](image\Xftp_display.png "Xftp_display")
+![Xftp_display](image/Xftp_display.png "Xftp_display")
 
 出现以下窗口后，键盘按下**Ctrl+n**新建会话
 
-![Xftp_display_windows](image\Xftp_display_windows.png "Xftp_display_windows")
+![Xftp_display_windows](image/Xftp_display_windows.png "Xftp_display_windows")
 
 弹出一个新的窗口，根据实际情况更改红色方框内的内容
 
@@ -79,7 +79,7 @@
 > 密码：登录设备的密码
 
 
-![Xftp_RDK_config](image\Xftp_RDK_config.png "Xftp_RDK_config")
+![Xftp_RDK_config](image/Xftp_RDK_config.png "Xftp_RDK_config")
 
 设置完成后即可连接到我们的设备
 
@@ -95,7 +95,7 @@
 
 以下图为例红色方框内以eth开头的是网线接口，蓝色方框内以wlan开头的是wifi接口
 
-![IP_show](image\RDK_IP_show.png "IP_show")
+![IP_show](image/RDK_IP_show.png "IP_show")
 
 执行以下命令使用vim工具编辑 Netplan 配置文件
 
@@ -107,7 +107,7 @@
 
 修改 Netlan 配置文件中的**eth0**配置成静态的IP4，ip地址为**192.168.123.233**
 
-![IP_change](image\RDK_IP_change.png "IP_change")
+![IP_change](image/RDK_IP_change.png "IP_change")
 
 ## 环境配置？？？
 
