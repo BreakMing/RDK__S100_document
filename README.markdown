@@ -4,7 +4,7 @@
  - RDK S100 开发板
  - 19V 5A以上的电源适配器
  - Type-C数据线
- - unitree GO1
+ - Unitree GO1
  - 网线
 
 ## 准备工作
@@ -44,9 +44,7 @@
 输入**用户密码**，就完成了连接，
 
 ### 第二步：安装docker内核（引擎）
-前往[docker官网](https://docs.docker.com/engine/install/ubuntu/ "docker")，根据文档一步步执行，即可在Ubuntu系统上安装**Docker Engine**
-
-个人建议按照**Install using the apt repository**来安装**Docker Engine**
+前往docker官网，根据[文档教程](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)一步步执行，即可在Ubuntu系统上安装**Docker Engine**
 
 ### 第三步：下载dockerfile，并传入RDK S100
 
